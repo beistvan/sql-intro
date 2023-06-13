@@ -1,0 +1,1 @@
+SELECT * FROM movies ORDER BY genre DESC, title DESC;
