@@ -1,0 +1,1 @@
+SELECT * FROM movies WHERE rating >= ALL (SELECT rating FROM top_rated_movies);
