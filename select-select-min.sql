@@ -1,0 +1,1 @@
+SELECT * FROM movies WHERE release_year = (SELECT MIN(release_year) FROM movies);
