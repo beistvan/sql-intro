@@ -1,0 +1,1 @@
+CREATE VIEW top_rated_movies AS SELECT id, title, release_year, genre, rating FROM movies WHERE rating = 9;
