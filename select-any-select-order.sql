@@ -1,0 +1,1 @@
+SELECT * FROM movies WHERE release_year = ANY (SELECT release_year FROM top_rated_movies) ORDER BY release_year;
