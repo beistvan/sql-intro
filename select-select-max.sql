@@ -1,0 +1,1 @@
+SELECT title FROM movies WHERE rating = (SELECT MAX(rating) FROM movies);
