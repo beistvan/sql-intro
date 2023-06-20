@@ -1,0 +1,1 @@
+SELECT * FROM movies WHERE release_year > 2000 OR genre = "Comedy" ORDER BY release_year DESC;
