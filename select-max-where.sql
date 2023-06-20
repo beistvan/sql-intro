@@ -1,0 +1,1 @@
+SELECT MAX(release_year) FROM movies WHERE genre = 'Action';
