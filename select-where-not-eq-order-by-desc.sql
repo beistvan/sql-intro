@@ -1,0 +1,1 @@
+SELECT * FROM movies WHERE genre != "Comedy" ORDER BY release_year DESC;
