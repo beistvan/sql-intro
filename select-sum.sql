@@ -1,0 +1,1 @@
+SELECT SUM(budget) FROM movies WHERE genre = 'Drama';
