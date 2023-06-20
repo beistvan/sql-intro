@@ -1,0 +1,1 @@
+SELECT release_year, COUNT(*) num_movies FROM movies GROUP BY release_year;
