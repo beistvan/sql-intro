@@ -1,0 +1,1 @@
+SELECT title, release_year, rating FROM movies WHERE rating = 9;
