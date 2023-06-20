@@ -1,0 +1,1 @@
+SELECT AVG(rating) FROM movies WHERE title LIKE 'The%';
