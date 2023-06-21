@@ -1,0 +1,1 @@
+SELECT movies.title, movies.genre, reviews.review FROM movies INNER JOIN reviews ON movies.id = reviews.movie_id WHERE movies.release_year BETWEEN 1970 AND 1979;
