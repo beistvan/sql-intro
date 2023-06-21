@@ -1,0 +1,1 @@
+ALTER TABLE movies MODIFY COLUMN release_year DATE NOT NULL;
