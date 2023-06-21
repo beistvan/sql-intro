@@ -1,0 +1,1 @@
+INSERT INTO movies (id, title, release_year, genre, rating) VALUES (1, 'The Shawshank Redemption', 1994, 'Drama', 9);
