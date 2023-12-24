@@ -1,0 +1,2 @@
+ALTER TABLE movies
+  ADD COLUMN box_office INT NOT NULL;
